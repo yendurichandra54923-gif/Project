@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Google Clone</title>
+
+  <style>
+
+    body {
+
+      margin: 0;
+
+      font-family: Arial, sans-serif;
+
+      background-image: "Demon.png";
+
+      color: #f1c59c;
+
+      display: flex;
+
+      flex-direction: column;
+
+      height: 100vh;
+
+    }
+
+
+
+    .topbar {
+
+      display: flex;
+
+      justify-content: flex-end;
+
+      padding: 15px 25px;
+
+      font-size: 14px;
+
+    }
+
+
+
+    .topbar a {
+
+      margin-left: 20px;
+
+      text-decoration: none;
+
+      color: #fff;
+
+    }
+
+
+
+    .main {
+
+      flex: 1;
+
+      display: flex;
+
+      flex-direction: column;
+
+      justify-content: center;
+
+      align-items: center;
+
+      text-align: center;
+
+    }
+
+
+
+    .logo {
+
+      font-size: 70px;
+
+      font-weight: bold;
+
+      margin-bottom: 25px;
+
+      color: #f1c59c;
+
+    }
+
+
+
+    .search-box {
+
+      display: flex;
+
+      align-items: center;
+
+      background: #fff;
+
+      border-radius: 25px;
+
+      padding: 8px 15px;
+
+      width: 600px;
+
+      max-width: 90%;
+
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+
+    }
+
+
+
+    .search-box input {
+
+      flex: 1;
+
+      border: none;
+
+      outline: none;
+
+      font-size: 16px;
+
+      padding: 10px;
+
+    }
+
+
+
+    .search-box .icon {
+
+      margin-left: 10px;
+
+      cursor: pointer;
+
+      gap :20px;
+
+    }
+
+
+
+    .shortcuts {
+
+      margin-top: 40px;
+
+      display: flex;
+
+      gap: 50px;
+
+      flex-wrap: wrap;
+
+      justify-content: center;
+
+    }
+
+    .shortcut {
+
+      display: flex;
+
+      flex-direction: column;
+
+      align-items: center;
+
+      text-decoration: none;
+
+      color: #fff;
+
+      font-size: 14px;
+
+    }
+
+    .shortcut img {
+
+      width: 50px;
+
+      height: 50px;
+
+      border-radius: 50%;
+
+      margin-bottom: 8px;
+
+    }
+
+    .img{
+
+        width: 30px;
+
+        border: 10px;
+
+    }
+
+  </style>
+
+</head>
+
+<body background="BackGround Imgs/Demon.png">
+
+
+
+  <!-- Top right menu -->
+
+  <div class="topbar">
+
+    <a href="#">Gmail</a>
+
+    <a href="#">Images</a>
+
+  </div>
+
+
+
+  <!-- Main Google content -->
+
+  <div class="main">
+
+    <div class="Images">
+
+        <img src="Images/google.png">
+
+    </div>
+
+
+
+    <div class="search-box">
+
+      <input type="text" placeholder="Search Google or type a URL">
+
+      <div class="img" >
+
+        <img src="Images/mic.png">
+
+      </div>
+
+      <div class="img">
+
+      <img src="Images/search.png">
+
+    </div>
+
+    </div>
+
+
+
+    <!-- Shortcuts -->
+
+    <div class="shortcuts">
+
+      <a href="#" class="shortcut">
+
+        <img src="Images/Instagram.png.jpg">
+
+        Instagram
+
+      </a>
+
+      <a href="#" class="shortcut">
+
+        <img src="Images/Whatsapp.png">
+
+        Whatsapp
+
+      </a>
+
+      <a href="#" class="shortcut">
+
+        <img src="Images/Snapchat@.png">
+
+        Snap Chat
+
+      </a>
+
+      <a href="#" class="shortcut">
+
+        <img src="Images/Git Hub @.png" alt="GitHub">
+
+        Git Hub
+
+      </a>
+
+      <a href="#" class="shortcut">
+
+        <img src="Images/Screenshot 2025-09-12 110756.png" alt="ShotCut">
+
+        Add ShotCut
+
+      </a>
+
+      
+
+    </div>
+
+  </div>
+
+
+
+</body>
+
+</html>
